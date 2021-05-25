@@ -17,6 +17,11 @@ gomodules.xyz/clock
 gomodules.xyz/kglog
 # gomodules.xyz/wait v0.0.0-20210218105358-639bd9211545
 gomodules.xyz/wait
+# k8s.io/apimachinery v0.21.1
+k8s.io/apimachinery/pkg/util/sets
+# k8s.io/component-base v0.21.1
+## explicit
+k8s.io/component-base/cli/flag
 # k8s.io/klog/v2 v2.8.0
 ## explicit
 k8s.io/klog/v2
