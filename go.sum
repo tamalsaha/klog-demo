@@ -466,8 +466,8 @@ golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8T
 golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 gomodules.xyz/clock v0.0.0-20200817085942-06523dba733f h1:hTyhR4r+tj1Uq7/PpFxLTzbeA0LhMVp7bEYfhkzFjdY=
 gomodules.xyz/clock v0.0.0-20200817085942-06523dba733f/go.mod h1:K3m7N+nBOlf91/tpv8REUGwsAgaKFwElQCuiLhm12AQ=
-gomodules.xyz/kglog v0.0.3-0.20210525043211-5840a764a960 h1:a7iwqT2EeglfHecJ4pDr/seGYtfxpgCbiJhlIk4bDb8=
-gomodules.xyz/kglog v0.0.3-0.20210525043211-5840a764a960/go.mod h1:HlZQTdZFBJX85gqL6TXGDTerQVNiEC4oJUI6f2CPmgE=
+gomodules.xyz/kglog v0.0.3-0.20210525073552-d1425fb7af62 h1:51wxqgvD1o9OIrUY9DOBalvMLCiQ/zsI4LWz2JCi7xE=
+gomodules.xyz/kglog v0.0.3-0.20210525073552-d1425fb7af62/go.mod h1:HlZQTdZFBJX85gqL6TXGDTerQVNiEC4oJUI6f2CPmgE=
 gomodules.xyz/wait v0.0.0-20210218105358-639bd9211545 h1:iiD24jN1H8PzliVe1igIzYsx8+VmbXG12y9UUSupUJU=
 gomodules.xyz/wait v0.0.0-20210218105358-639bd9211545/go.mod h1:g/epKzZQuCqgvhzhaoG4cSBNGHqnOrhFR4Q7szDJ1JM=
 google.golang.org/api v0.4.0/go.mod h1:8k5glujaEP+g9n7WNsDg8QP6cUVNI86fCNMcbazEtwE=

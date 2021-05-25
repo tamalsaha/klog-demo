@@ -12,7 +12,7 @@ github.com/spf13/cobra
 github.com/spf13/pflag
 # gomodules.xyz/clock v0.0.0-20200817085942-06523dba733f
 gomodules.xyz/clock
-# gomodules.xyz/kglog v0.0.3-0.20210525043211-5840a764a960
+# gomodules.xyz/kglog v0.0.3-0.20210525073552-d1425fb7af62
 ## explicit
 gomodules.xyz/kglog
 # gomodules.xyz/wait v0.0.0-20210218105358-639bd9211545

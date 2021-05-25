@@ -63,14 +63,12 @@ func InitLogs() {
 	go wait.Forever(klog.Flush, *logFlushFreq)
 }
 
-func ParseFlags() {
-	pflag.Parse()
-
+func InitKlog(fs *pflag.FlagSet) {
 	klogFlags := flag.NewFlagSet("klog", flag.ExitOnError)
 	klog.InitFlags(klogFlags)
 
 	// Sync the glog and klog flags.
-	pflag.CommandLine.VisitAll(func(f1 *pflag.Flag) {
+	fs.VisitAll(func(f1 *pflag.Flag) {
 		f2 := klogFlags.Lookup(f1.Name)
 		if f2 != nil {
 			value := f1.Value.String()
