@@ -1,9 +1,12 @@
 package main
 
 import (
+	"flag"
+	"github.com/spf13/pflag"
 	"gomodules.xyz/kglog"
 	"k8s.io/klog/v2/klogr"
 )
+
 type myError struct {
 	str string
 }
@@ -16,6 +19,7 @@ func main(){
 	kglog.InitLogs()
 	defer kglog.FlushLogs()
 
+	pflag.CommandLine.AddGoFlagSet(flag.CommandLine)
 	kglog.ParseFlags()
 
 	log := klogr.New().WithName("MyName").WithValues("user", "you")
